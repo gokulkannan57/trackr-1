@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:text="Bus"
+        android:id="@+id/location_bus"
+        android:src="@drawable/bus_button"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="60dp"
+        android:paddingRight="10dp"/>
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bus_no"
+        android:layout_gravity="right|top"
+        android:text="Select"
+        android:scaleType="fitXY"
+        android:id="@+id/select"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="150dp"
+        android:paddingRight="10dp"/>
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:src="@drawable/developer"
+        android:layout_gravity="right|top"
+        android:scaleType="fitXY"
+        android:text="About"
+        android:id="@+id/about"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="10dp"/>
+
+
+    </fragment>
